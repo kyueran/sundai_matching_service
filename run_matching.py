@@ -32,24 +32,25 @@ def run_matching(persons, output_file="matches.json"):
     sim_dict = {}
     results = {}
 
-    for i in range(N):
+    for idx in range(N):  # outer loop person index
         sims = []
         for j in range(N):
-            if i == j:
+            if idx == j:
                 continue
-            if (j, i) in sim_dict:
-                score = sim_dict[(j, i)]
+            if (j, idx) in sim_dict:
+                score = sim_dict[(j, idx)]
             else:
-                score = cosine_similarity_q1_q2_flipped(vectors[i], vectors[j])
-                sim_dict[(i, j)] = score
+                score = cosine_similarity_q1_q2_flipped(vectors[idx], vectors[j])
+                sim_dict[(idx, j)] = score
             sims.append((j, score))
 
         sims.sort(key=lambda x: x[1], reverse=True)
         top3 = sims[:3]
+
         # Collect top matches
         matches = []
-        for i, (j, score) in enumerate(top3):
-            intro = make_intro(persons[i], persons[j])
+        for rank, (j, score) in enumerate(top3, start=1):
+            intro = make_intro(persons[idx], persons[j])
             p = persons[j]
             matches.append({
                 "username": p.username,
@@ -57,16 +58,16 @@ def run_matching(persons, output_file="matches.json"):
                 "linkedin": p.linkedin,
                 "role": p.role,
                 "intro": intro,
-                "ranking": i + 1,
+                "ranking": rank,
             })
-        
-        # Username of i as key, matches as content
-        results[persons[i].username] = {
+
+        # Username of idx as key, matches as content
+        results[persons[idx].username] = {
             "self": {
-                "username": persons[i].username,
-                "name": persons[i].name,
-                "linkedin": persons[i].linkedin,
-                "role": persons[i].role,
+                "username": persons[idx].username,
+                "name": persons[idx].name,
+                "linkedin": persons[idx].linkedin,
+                "role": persons[idx].role,
             },
             "matches": matches
         }
