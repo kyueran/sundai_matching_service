@@ -1,0 +1,9 @@
+Python is my pick because of its simplicity and the vast ecosystem of security libraries.
+
+I bring Kali Linux, Wireshark for packet sniffing, and a portable rubber ducky for physical exploits.
+
+Found a bug where entering ‘password’ backwards gave admin access. Had to triple-check it wasn’t a trap!
+
+My hacking anthem would be “Busy Child” by Crystal Method—fast-paced and glitchy.
+
+Jordan specializes in offensive security and red teaming, with strong Python scripting skills and experience in wireless security. Active in training and workshops.

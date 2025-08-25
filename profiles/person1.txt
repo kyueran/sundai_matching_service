@@ -1,0 +1,9 @@
+I’d pick Rust because it combines performance with safety, and I love systems programming.
+
+My digital toolkit would have Nmap for scanning, Burp Suite for web testing, and a custom keylogger script.
+
+One time, I found a login bypass by simply changing the user ID in the URL. It felt like a cheat code!
+
+If hacking had a theme song, it’d be “The Hand That Feeds” by Nine Inch Nails—dark and intense.
+
+Alex is a security researcher with expertise in exploit development, reverse engineering, and network reconnaissance. He contributes to CTF teams and enjoys coding in Rust and C++.

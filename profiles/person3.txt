@@ -1,0 +1,9 @@
+Go language would be awesome to master instantly because of its concurrency and speed.
+
+I’d pack Metasploit, Wireshark, and a collection of phishing templates.
+
+Discovered a website that leaked all usernames in a JSON response due to a dev error—goldmine!
+
+I’d choose “Electric Feel” by MGMT for its catchy and electric vibe.
+
+Taylor is a cybersecurity consultant focused on penetration testing and social engineering, skilled in Go and Python automation.

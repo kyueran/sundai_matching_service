@@ -1,0 +1,36 @@
+{
+    "dr.sanika.vaidya@gmail.com": {
+        "self": {
+            "username": "dr.sanika.vaidya@gmail.com",
+            "name": "Sanika Vaidya",
+            "linkedin": "https://www.linkedin.com/in/sanikavaidya/",
+            "role": "Job;Domain Expert"
+        },
+        "matches": [
+            {
+                "username": "ehweaver@mit.edu",
+                "name": "Eliza Weaver",
+                "linkedin": "LinkedIn.com/in/elizaweaver/",
+                "role": "Co-founder;Investor;Sponsor;Domain Expert;Other partners: engineers, designers, etc",
+                "intro": "Eliza Weaver is an energetic entrepreneur with a passion for running and technology. She's working on launching her own app and leveraging her MBA knowledge along with AI coding tools to bring her vision to life.\n\nFun fact: Both of you are interested in launching something new, with Eliza focused on her app and you potentially exploring a launch in your areas of expertise.",
+                "ranking": 1
+            },
+            {
+                "username": "orijeetmukherjee.im@gmail.com",
+                "name": "Orijeet Mukherjee",
+                "linkedin": "https://www.linkedin.com/in/orijeet-mukherjee?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                "role": "Job",
+                "intro": "Orijeet Mukherjee is a tech enthusiast with a passion for Machine Learning, AI, and cloud computing. He's pursuing mastery in his skills while balancing his love for soccer.\n\nFun fact: Both of you have an interest in technology and coding, with Orijeet focusing on AI and machine learning while you're involved in biotech and drug discovery applications.",
+                "ranking": 2
+            },
+            {
+                "username": "debamitro@gmail.com",
+                "name": "Debamitro Chakraborti",
+                "linkedin": "https://www.linkedin.com/in/debamitro",
+                "role": "Job",
+                "intro": "Debamitro Chakraborti is a tech enthusiast with expertise in compilers and backend development, who's also passionate about machine learning engineering. He's looking to expand his horizons with a part-time job while continuing to hone his coding skills.\n\nFun fact: Both of you have an interest in coding, though in different contexts - Debamitro in backend development and you in relation to AI tools.",
+                "ranking": 3
+            }
+        ]
+    }
+}

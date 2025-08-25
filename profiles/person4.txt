@@ -1,0 +1,9 @@
+JavaScript, since so many web apps rely on it and it can be abused in many clever ways.
+
+My tools would be Chrome DevTools, Fiddler proxy, and a collection of browser exploits.
+
+Once found a glitch that allowed infinite coupon stacking on an e-commerce site—cha-ching!
+
+“Sabotage” by Beastie Boys would be my soundtrack—aggressive and relentless.
+
+Morgan works as a web security analyst, experienced in JavaScript vulnerabilities and client-side exploitation.

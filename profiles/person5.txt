@@ -1,0 +1,9 @@
+C++, for deep system-level hacking and performance optimization.
+
+USB rubber ducky, custom shell scripts, and Ghidra for reverse engineering.
+
+Caught a buffer overflow bug that crashed a financial app during stress tests.
+
+“Eye of the Tiger” by Survivor pumps me up when I’m debugging tough exploits.
+
+Riley is a reverse engineer and exploit developer with a focus on low-level vulnerabilities and C++ programming.
